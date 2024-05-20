@@ -35,8 +35,6 @@
          url('../fonts/rubik-v28-latin-800.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
 
-
-/* ---------------------------- Home Section Begin ---------------------------- */
 * {
      margin: 0;
      padding: 0;
@@ -48,16 +46,37 @@ body {
      font-size: 16px;
      font-weight: 400;
 }
+
+/* ---------------------------- Home Section Begin ---------------------------- */
+
 /* navbar section begin */
 .logo_1 {
-     font-family: 'Rubik';
      font-weight: 500;
      font-size: 20px;
 }
 .logo_2 {
-     font-family: 'Rubik';
      font-weight: 700;
      font-size: 20px;
+}
+
+.sign_in {
+     font-weight: 500;
+     text-decoration: none;
+     color: #0B132A;
+}
+.sign_up {
+     font-weight: 500;
+     text-decoration: none;
+     padding: 13px 45px;
+     color: #F53855;
+     border-radius: 50px;
+     border: 1px solid #F53855;
+     transition: 0.4s;
+}
+
+.sign_up:hover {
+     background-color: #F53855;
+     color: white;
 }
 /* navbar section end */
 /* ---------------------------- Home Section End ---------------------------- */
