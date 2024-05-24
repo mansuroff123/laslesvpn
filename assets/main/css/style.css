@@ -108,6 +108,32 @@ body {
 /* ---------------------------- Home Section End ---------------------------- */
 
 
+
+/* ---------------------------- Users Section Begin ---------------------------- */
+.users {
+     border-radius: 10px;
+     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.user_header {
+     font-weight: 700;
+     font-size: 25px;
+     color: #0B132A;
+     margin: 0;
+}
+.user_text {
+     font-size: 20px;
+     margin:0;
+}
+
+.line {
+     height: 100%;
+     width: 2px;
+     background-color: #EEEFF2;
+}
+/* ---------------------------- Users Section End ---------------------------- */
+
+
 @media screen and (max-width: 768px) {
      .home {
           height: 100% !important;
