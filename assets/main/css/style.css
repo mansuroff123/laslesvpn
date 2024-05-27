@@ -133,6 +133,17 @@ body {
 }
 /* ---------------------------- Users Section End ---------------------------- */
 
+/* ---------------------------- Features Section Begin ---------------------------- */
+.correct_text {
+     margin: 0;
+     font-size: 14px;
+}
+.header_text {
+     font-size: 35px;
+     font-weight: 500;
+     color: #0B132A;
+}
+/* ---------------------------- Features Section End ---------------------------- */
 
 @media screen and (max-width: 768px) {
      .home {
