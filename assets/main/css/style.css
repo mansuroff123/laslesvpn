@@ -145,6 +145,49 @@ body {
 }
 /* ---------------------------- Features Section End ---------------------------- */
 
+
+/* ---------------------------- Plan Section begin ---------------------------- */
+.plan {
+     background-color: #fbfbfb;
+}
+
+.card_title_1 {
+     font-weight: 500;
+     font-size: 18px;
+     color: #0B132A;
+}
+.correct_text_card {
+     font-size: 14px;
+     color: #4F5665;
+     margin: 0;
+}
+
+.card_title_2 {
+     font-size: 25px;
+     font-weight: 500;
+     color: #0B132A;
+}
+.btn_select {
+     font-weight: 700;
+     color: #F53838;
+     border-radius: 50px;
+     border: 2px solid #F53838;
+     text-decoration: none;
+     padding: 10px 60px;
+     transition: 0.4s;
+}
+.btn_select:hover {
+     background-color: #F53838;
+     color: #fbfbfb;
+}
+
+.card_cs {
+     border: 2px solid #DDDDDD;
+     border-radius: 10px;
+}
+/* ---------------------------- Plan Section End ---------------------------- */
+
+
 @media screen and (max-width: 768px) {
      .home {
           height: 100% !important;
