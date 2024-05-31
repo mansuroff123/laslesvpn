@@ -185,6 +185,26 @@ body {
      border: 2px solid #DDDDDD;
      border-radius: 10px;
 }
+
+.month {
+     color: #4F5665;
+     font-weight: 400;
+     font-size: 25px;
+}
+
+.card_cs_premium {
+     border-color: rgba(245, 56, 56, 1);
+}
+
+.btn_premium {
+     background-color: #F53838;
+     color: #fbfbfb;
+}
+
+.btn_premium:hover {
+     background-color: #fbfbfb;
+     color: #F53838;
+}
 /* ---------------------------- Plan Section End ---------------------------- */
 
 
