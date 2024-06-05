@@ -227,6 +227,40 @@ body {
 .message {
      color: #0B132A;
 }
+
+.comment-page .carousel-control-prev-icon,
+.comment-page .carousel-control-next-icon {
+     display: none;
+}
+.comment-page .carousel-control-prev,
+.comment-page .carousel-control-next {
+     position: static;
+     background-image: url("../images/prev_arrow.svg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: #fff;
+     border: 2px solid #F53838;
+     border-radius: 50%;
+     padding: 26px;
+     width: 30px;
+     height: 30px;
+     margin: 10px;
+}
+
+.comment-page .carousel-control-prev:hover,
+.comment-page .carousel-control-next:hover {
+     background-color: #F53838;
+     background-image: url("../images/next_arrow.svg");
+     rotate: 360deg;
+}
+.comment-page .carousel-control-prev:hover {
+     rotate: 180deg;
+}
+
+.comment-page .carousel-control-next {
+     background-image: url("../images/prev_arrow.svg");
+     rotate: 180deg;
+}
 /* ---------------------------- Comment Section End ---------------------------- */
 
 
