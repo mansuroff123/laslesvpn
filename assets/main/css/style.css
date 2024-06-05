@@ -215,6 +215,18 @@ body {
      border: 2px solid rgba(221, 221, 221, 1);
      border-radius: 10px;
 }
+.author {
+     color: #0B132A;
+     font-weight: 500;
+     font-size: 18px;
+}
+.country {
+     color: #4F5665;
+     font-size: 14px;
+}
+.message {
+     color: #0B132A;
+}
 /* ---------------------------- Comment Section End ---------------------------- */
 
 
