@@ -194,11 +194,13 @@ body {
 
 .card_cs_premium {
      border-color: rgba(245, 56, 56, 1);
+     box-shadow: rgba(245, 56, 56, 0.35) 0px 30px 40px -7px;
 }
 
 .btn_premium {
      background-color: #F53838;
      color: #fbfbfb;
+     box-shadow: rgba(245, 56, 56, 0.35) 0px 30px 40px -7px;
 }
 
 .btn_premium:hover {
@@ -258,15 +260,28 @@ body {
 }
 
 .comment-page .carousel-control-next {
-     background-image: url("../images/prev_arrow.svg");
      rotate: 180deg;
 }
+
+.text_resize {
+     width: 40%;
+}
 /* ---------------------------- Comment Section End ---------------------------- */
+
+
+/* ---------------------------- Footer Section Begin ---------------------------- */
+footer {
+     background-color: #f8f8f8;
+}
+/* ---------------------------- Footer Section End ---------------------------- */
 
 
 @media screen and (max-width: 768px) {
      .home {
           height: 100% !important;
+     }
+     .text_resize {
+          width: 100%;
      }
 }
 
