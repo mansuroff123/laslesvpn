@@ -57,6 +57,7 @@ body {
 .logo_1 {
      font-weight: 500;
      font-size: 20px;
+     color: #0B132A;
 }
 .logo_2 {
      font-weight: 700;
@@ -273,6 +274,28 @@ body {
 footer {
      background-color: #f8f8f8;
 }
+
+.text_resize_f {
+     width: 65%;
+}
+
+.icon {
+     font-size: 16px;
+     color: #F53838;
+     transition: 0.7;
+}
+.social {
+     display: flex;
+     width: 36px;
+     height: 36px;
+     border-radius: 50%;
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+     justify-content: center;
+     align-items: center;
+}
+.social:hover {
+     background-color: #f0f0f0;
+}
 /* ---------------------------- Footer Section End ---------------------------- */
 
 
@@ -281,6 +304,9 @@ footer {
           height: 100% !important;
      }
      .text_resize {
+          width: 100%;
+     }
+     .text_resize_f {
           width: 100%;
      }
 }
