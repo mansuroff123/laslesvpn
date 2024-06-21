@@ -31,16 +31,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Help</a>
+              <a class="nav-link" href="#help">Help</a>
             </li>
           </ul>
           <div>
@@ -127,7 +127,7 @@
   <!-- #################### Users Section End #################### -->
 
   <!-- #################### features Section Begin #################### -->
-  <div class="features py-3 py-lg-5">
+  <div class="features py-3 py-lg-5" id="features">
     <div class="container">
       <div class="row py-3 py-lg-5 row-gap-5">
         <div class="col-12 col-lg-6 ">
@@ -166,7 +166,7 @@
 
 
   <!-- #################### Plan Section Begin #################### -->
-  <div class="plan py-5">
+  <div class="plan py-5" id="pricing">
     <div class="container">
       <h1 class="header_text text-center">Choose Your Plan</h1>
       <p class="text-center">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
@@ -318,7 +318,7 @@
 
   <!-- #################### Global Section Begin #################### -->
 
-  <div class="global py-5">
+  <div class="global py-5" id="testimonials">
     <div class="container">
       <div class="py-5">
         <h1 class="header_text text-center">Huge Global Network of Fast VPN</h1>
@@ -358,14 +358,14 @@
 
     
 
-    <div id="carouselExampleIndicators" class="carousel slide py-5">
+    <div id="carouselExampleInterval" id="carouselExampleControlsTouching" class="carousel slide py-5" data-bs-ride="carousel" data-bs-touch="true">
       <!-- <div class="carousel-indicators bg-danger">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div> -->
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-bs-interval="7000">
           <!-- comment-1 -->
           <div class="w-100 d-flex justify-content-center">
             <div class="comment d-flex flex-column" style="width: 26rem; min-height: 250px;">
@@ -392,7 +392,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="1500">
           <!-- comment-2 -->
           <div class="w-100 d-flex justify-content-center">
             <div class="comment d-flex flex-column" style="width: 26rem; min-height: 250px;">
@@ -444,12 +444,12 @@
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-end">
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <div class="d-flex justify-content-end py-3">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-target="#carouselExampleControlsTouching" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-target="#carouselExampleControlsTouching" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -474,7 +474,7 @@
 
 
   <!-- #################### Footer Section Begin #################### -->
-   <footer class="py-5">
+   <footer class="py-5" id="help">
     <div class="container">
       <div class="row row-gap-3">
         <div class="col-12 col-md-8 col-lg-5  d-flex flex-column gap-3">
